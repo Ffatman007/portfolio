@@ -83,7 +83,7 @@ export default function About() {
               flexShrink: 0,
             }}>
               <img
-                src="/profile.png"
+                src="/profile.jpg"
                 alt="Kazi Zunaid Bin Zakaria"
                 style={{
                   width: '100%',
