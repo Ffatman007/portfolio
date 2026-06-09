@@ -9,7 +9,7 @@ const EXPERIENCE = [
     dates: 'November 2024 – Present',
     current: true,
     bullets: [
-      'Built the sales development function from zero — scripts, qualification frameworks, KPI tracking across a 20+ member team',
+      'Built the sales development function from zero: scripts, qualification frameworks, and KPI tracking across a 20+ member team',
       'Ran structured consultative discovery calls with inbound and outbound prospects across healthcare, education, hospitality, and uniform supply sectors',
       'Managed full client lifecycle from first contact through to onboarding',
       'Trained and mentored team members individually; iterated on process in real time to improve conversion',
@@ -17,9 +17,9 @@ const EXPERIENCE = [
     ],
   },
   {
-    title: 'Remote Operations Executive — Inbound Sales',
+    title: 'Remote Operations Executive - Inbound Sales',
     company: 'My Outsourcing Limited',
-    sub: 'SonaliPay — US Campaign',
+    sub: 'SonaliPay - US Campaign',
     dates: 'July 2020 – November 2021',
     current: false,
     bullets: [
@@ -28,7 +28,7 @@ const EXPERIENCE = [
     ],
   },
   {
-    title: 'Consultant — Interpreter & Translator',
+    title: 'Consultant - Interpreter & Translator',
     company: 'Syngenta Foundation for Sustainable Agriculture',
     sub: null,
     dates: 'October 2022 – November 2023',

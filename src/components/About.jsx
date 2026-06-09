@@ -3,7 +3,7 @@ import { useInView } from 'framer-motion'
 import { useRef } from 'react'
 import profilePhoto from '../assets/profile.jpg'
 
-const TAGS = ['IELTS Band 7', 'BA English — 3.80 CGPA', 'Remote-Ready', 'Night Shift / UK Hours']
+const TAGS = ['IELTS Band 7', 'BA English - 3.80 CGPA', 'Remote-Ready', 'Night Shift / UK Hours']
 
 function AnimatedSection({ children, delay = 0 }) {
   const ref = useRef(null)
@@ -120,7 +120,7 @@ export default function About() {
               color: '#C8D2E6',
               marginBottom: '2rem',
             }}>
-              I sell. Whatever the room requires — cold outreach, warm inbound, video calls, phone, chat — I adapt and I close.
+              I sell. Whatever the room requires - cold outreach, warm inbound, video calls, phone, chat - I adapt and I close.
               Over 4+ years I've worked across UK and US markets running both B2B and B2C sales, leading 20+ member teams,
               and managing high-stakes consultative conversations with individuals and businesses alike.
               I work UK and European hours remotely from Dhaka, and I'm built for fast-moving, high-growth environments
