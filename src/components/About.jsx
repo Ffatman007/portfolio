@@ -71,24 +71,27 @@ export default function About() {
               background: 'radial-gradient(circle at center, rgba(37, 99, 235, 0.08) 0%, transparent 70%)',
             }} />
             <div style={{
-              width: '100px',
-              height: '100px',
+              width: '160px',
+              height: '160px',
               borderRadius: '50%',
-              background: 'rgba(37, 99, 235, 0.15)',
-              border: '2px solid rgba(37, 99, 235, 0.4)',
-              display: 'flex',
-              alignItems: 'center',
-              justifyContent: 'center',
+              border: '3px solid rgba(37, 99, 235, 0.5)',
+              boxShadow: '0 0 0 6px rgba(37, 99, 235, 0.1)',
+              overflow: 'hidden',
               marginBottom: '1rem',
               position: 'relative',
               zIndex: 1,
+              flexShrink: 0,
             }}>
-              <span style={{
-                fontSize: '2.5rem',
-                fontWeight: '800',
-                color: '#2563EB',
-                letterSpacing: '-0.03em',
-              }}>KZ</span>
+              <img
+                src="/profile.png"
+                alt="Kazi Zunaid Bin Zakaria"
+                style={{
+                  width: '100%',
+                  height: '100%',
+                  objectFit: 'cover',
+                  display: 'block',
+                }}
+              />
             </div>
             <p style={{ color: '#C8D2E6', fontSize: '0.9rem', fontWeight: '500', position: 'relative', zIndex: 1 }}>Kazi Zunaid Bin Zakaria</p>
             <p style={{ color: '#60A5FA', fontSize: '0.78rem', marginTop: '0.25rem', position: 'relative', zIndex: 1 }}>Dhaka, Bangladesh</p>
