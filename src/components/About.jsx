@@ -1,6 +1,7 @@
 import { motion } from 'framer-motion'
 import { useInView } from 'framer-motion'
 import { useRef } from 'react'
+import profilePhoto from '../assets/profile.jpg'
 
 const TAGS = ['IELTS Band 7', 'BA English — 3.80 CGPA', 'Remote-Ready', 'Night Shift / UK Hours']
 
@@ -83,7 +84,7 @@ export default function About() {
               flexShrink: 0,
             }}>
               <img
-                src="/profile.jpg"
+                src={profilePhoto}
                 alt="Kazi Zunaid Bin Zakaria"
                 style={{
                   width: '100%',
